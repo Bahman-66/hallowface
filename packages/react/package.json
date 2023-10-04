@@ -1,0 +1,7 @@
+{
+  "name": "react",
+  "packageManager": "yarn@3.6.3",
+  "scripts": {
+    "build": "tsc ./genrator.ts"
+  }
+}
