@@ -1,8 +1,6 @@
 import * as fs from "fs-extra";
 
-async function main() {
+export default async function main() {
   const data = await fs.readFile("my-file.txt");
   console.log(data);
 }
-
-main();
