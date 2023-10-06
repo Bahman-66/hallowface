@@ -6,7 +6,7 @@ module.exports = {
   target: "node",
   entry: "./src/index.ts", // Entry point (your TypeScript file)
   output: {
-    filename: "bundle.js", // Output bundle filename
+    filename: "app.js", // Output bundle filename
     path: path.resolve(__dirname, "dist"), // Output directory
   },
   resolve: {
